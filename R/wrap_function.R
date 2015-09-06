@@ -1,6 +1,6 @@
 #' Wrap an expression in a function
 #'
-#' @param body
+#' @param body of the call
 #' @param pipe character; the pipe used
 #' @param env environment;
 #'

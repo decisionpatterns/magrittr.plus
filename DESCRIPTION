@@ -8,10 +8,10 @@ Description: Monkey patches magrittr so that recursive objects are introspected.
     It provides '%>%' accessors for S3, S4, R6, proto objects.
     That is, iris %>% Sepal.Length finds 'Sepal.Length' within the object. A
     replacement method is also provided so that iris %>% Sepal.Length <- x also
-    works. Thi
+    works.
 License: GPL-2
 LazyData: TRUE
 Depends: magrittr
-Imports: 
+Imports:
     lazyeval
 Suggests: testthat

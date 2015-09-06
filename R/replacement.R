@@ -1,5 +1,9 @@
-#' @rdname R6-pipe
-#' @aliases R6.pipe
+#' Pipe Replacement
+#'
+#' @param value any; value to set the LHS to
+#' @param ... additional arguments
+#'
+#' @rdname pipe-replace
 #' @export
 
 setGeneric( '%>%<-'
@@ -20,10 +24,9 @@ setGeneric( '%>%<-'
 )
 
 
-#' @rdname R6-pipe
+#' @rdname pipe-replace
 #' @export
 #' @import lazyeval
-
 
 setMethod(
   '%>%<-', c(value='ANY'), function(value, ...) {

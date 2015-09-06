@@ -7,7 +7,7 @@
 wrap_function(body, pipe, env)
 }
 \arguments{
-\item{body}{}
+\item{body}{of the call}
 
 \item{pipe}{character; the pipe used}
 

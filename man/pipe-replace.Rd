@@ -2,12 +2,20 @@
 % Please edit documentation in R/replacement.R
 \docType{methods}
 \name{\%>\%<-}
-\alias{R6.pipe}
 \alias{\%>\%<-}
 \alias{\%>\%<-,ANY-method}
+\title{Pipe Replacement}
 \usage{
 \%>\%(...) <- value
 
 \S4method{\%>\%}{ANY}(...) <- value
+}
+\arguments{
+\item{value}{any; value to set the LHS to}
+
+\item{...}{additional arguments}
+}
+\description{
+Pipe Replacement
 }
 
