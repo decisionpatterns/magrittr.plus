@@ -3,6 +3,9 @@
 #' @param value any; value to set the LHS to
 #' @param ... additional arguments
 #'
+#' @examples
+#'   ll <- list( a=1, b=2 )
+#'   ll %>% a = 3
 #' @rdname pipe-replace
 #' @export
 
@@ -25,6 +28,7 @@ setGeneric( '%>%<-'
 
 
 #' @rdname pipe-replace
+#' @param value ANY
 #' @export
 #' @import lazyeval
 

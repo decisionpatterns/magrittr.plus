@@ -14,8 +14,14 @@
 \item{value}{any; value to set the LHS to}
 
 \item{...}{additional arguments}
+
+\item{value}{ANY}
 }
 \description{
 Pipe Replacement
+}
+\examples{
+ll <- list( a=1, b=2 )
+  ll \%>\% a = 3
 }
 
