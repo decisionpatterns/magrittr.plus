@@ -1,4 +1,4 @@
-## magrittr.introspective
+## magrittr.plus
 
 Drop-In Replacement of 'magrittr' To Introspect Recursive Objects
 
@@ -7,11 +7,11 @@ Drop-In Replacement of 'magrittr' To Introspect Recursive Objects
 
 ### CRAN 
 
-    install.packages('magrittr.introspectice")
+    install.packages('magrittr.plusdocume")
 
 ### github.com
 
-    install_github("decisionpatterns/magrittr.introspective")
+    install_github("decisionpatterns/magrittr.plus")
 
 
 ## Benefits
@@ -25,26 +25,27 @@ Drop-In Replacement of 'magrittr' To Introspect Recursive Objects
 
 ## Usage
 
-    library(magrittr.introspective)
+    library(magrittr.plus)    # Use instead of magrittr
+     
     ll <- list( a=1, b=2 ) 
-    
+     
     # Accesor
-    ll %>% a       # 1
-    
+    ll %>% a         # 1
+     
     # Replacement
     ll %>% a <- 2  
-    ll %>% a       # 2
-    
+    ll %>% a         # 2
+
 
 ## TLDR;
 
-`magrittr.introspective` promotes cleaner more legibly code eliminating the 
+`magrittr.plus` promotes cleaner more legibly code eliminating the 
 need for the `extract2` function.  Consider, the common case of extracting
 a value from a list or data.frame by name. The way `magrittr` allows this is:
 
     list( a=1:10, b=rnorm(10) ) %>% extract2('a')
 
-`magrittr.introspective` allows you to express this as:
+`magrittr.plus` allows you to express this as:
 
     list( a=1:10, b=rnorm(10) ) %>%  a
 
@@ -54,7 +55,7 @@ dereferncing operator that looks inside the object. This same semantic is
 promoted here.  Second, this is almost always what you would is done so it makes
 since that `extract2` is unnecessary. (It still works though).
 
-`magrittr.introspective` also provides replacement function for a number of 
+`magrittr.plus` also provides replacement function for a number of 
 classes.  This allows syntax such as the following: 
 
     ll <- list( a=1:10, b=rnorm(10) ) 

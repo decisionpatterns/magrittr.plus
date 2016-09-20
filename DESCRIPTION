@@ -23,10 +23,10 @@ Depends:
 Imports:
     lazyeval (>= 0.1.10.9000)
 URL:
-    https://github.com/decisionpatterns/magrittr.introspective
+    https://github.com/decisionpatterns/magrittr.plus
     http://www.decisionpatterns.com
 BugReports:
-    https://github.com/decisionpatterns/magrittr.introspective/issues
+    https://github.com/decisionpatterns/magrittr.plus/issues
 Suggests:
     testthat,
     knitr,
