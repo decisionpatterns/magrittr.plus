@@ -1,7 +1,7 @@
 Package: magrittr.plus
 Type: Package
 Title: Drop-In Replacement for Magrittr with Advanced Accessors and Replacement
-Version: 0.3
+Version: 0.3.1
 Date: 2016-09-19
 Authors@R: c(
     person("Christopher", "Brown", , "chris.brown@decisionpatterns.com", c("aut", "cre") ),
@@ -11,10 +11,9 @@ Description: This packages provides a monkey patch for 'magrittr' so that
     elements of recursive objects (e.g. lists, data.frames, S3, S4, R6, env,
     etc,) can be accessed using only the pipe '%>%' operator. That is,
     'magrittr.enhanced' looks for the RHS of the pipe *within* the LHS first.
-    This enhancement eliminates the need for `extract2`; promotes more concise
-    and legible code.
-    A replacement method also allows for inline replacement of recursive values:
-    'LHS %>% RHS <- newvalue'
+    This enhancement eliminates the need for `extract2` and promotes more
+    concise and legible code. A replacement method also allows for inline
+    replacement of recursive values: 'LHS %>% RHS <- newvalue'
 License: GPL-2 | file LICENSE
 LazyData: TRUE
 Depends:

@@ -1,4 +1,4 @@
 library(testthat)
-library(magrittr.introspective)
+library(magrittr.plus)
 
-test_check("magrittr.introspective")
+test_check("magrittr.plus")
