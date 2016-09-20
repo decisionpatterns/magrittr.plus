@@ -1,18 +1,34 @@
-Package: magrittr.introspective
+Package: magrittr.plus
 Type: Package
-Title: Drop-In Replacement for Magrittr That Introspects Recursive Objects
-Version: 0.2
-Date: 2015-09-06
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: Monkey patches magrittr so that recursive objects are introspected.
-    It provides '%>%' accessors for S3, S4, R6, proto objects.
-    That is, iris %>% Sepal.Length finds 'Sepal.Length' within the object. A
-    replacement method is also provided so that iris %>% Sepal.Length <- x also
-    works.
-License: GPL-2
+Title: Drop-In Replacement for Magrittr with Advanced Accessors and Replacement
+Version: 0.3
+Date: 2016-09-19
+Authors@R: c(
+    person("Christopher", "Brown", , "chris.brown@decisionpatterns.com", c("aut", "cre") ),
+    person("Decision Patterns", role = "cph")
+    )
+Description: This packages provides a monkey patch for 'magrittr' so that
+    elements of recursive objects (e.g. lists, data.frames, S3, S4, R6, env,
+    etc,) can be accessed using only the pipe '%>%' operator. That is,
+    'magrittr.enhanced' looks for the RHS of the pipe *within* the LHS first.
+    This enhancement eliminates the need for `extract2`; promotes more concise
+    and legible code.
+    A replacement method also allows for inline replacement of recursive values:
+    'LHS %>% RHS <- newvalue'
+License: GPL-2 | file LICENSE
 LazyData: TRUE
-Depends: magrittr
+Depends:
+    R (>= 3.1.0),
+    magrittr (>= 1.5)
 Imports:
-    lazyeval
+    lazyeval (>= 0.1.10.9000)
+URL:
+    https://github.com/decisionpatterns/magrittr.introspective
+    http://www.decisionpatterns.com
+BugReports:
+    https://github.com/decisionpatterns/magrittr.introspective/issues
 Suggests:
-    testthat
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

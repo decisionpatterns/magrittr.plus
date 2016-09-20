@@ -5,7 +5,9 @@
 #'
 #' @examples
 #'   ll <- list( a=1, b=2 )
-#'   ll %>% a = 3
+#'   ll %>% a <- 3
+#'   ll$a
+#'
 #' @rdname pipe-replace
 #' @export
 
