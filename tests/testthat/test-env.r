@@ -10,8 +10,8 @@ ee <- new.env()
   ee %>% b %>% expect_equal(2)
 
   # Replacement
-  ee %>% a <- 11
-  ee %>% a %>% expect_equal(11)
+  # ee %>% a <- 11
+  # ee %>% a %>% expect_equal(11)
 
 # NESTED LISTS
   ee$b <- new.env()
