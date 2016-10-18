@@ -10,8 +10,8 @@ Authors@R: c(
 Description: This packages provides a monkey patch for 'magrittr' so that
     elements of recursive objects (e.g. lists, data.frames, S3, S4, R6, env,
     etc,) can be accessed using only the pipe '%>%' operator. That is,
-    'magrittr.enhanced' looks for the RHS of the pipe *within* the LHS first.
-    This enhancement eliminates the need for `extract2` and promotes more
+    'magrittr.plus' looks for the RHS of the pipe *within* the LHS first.
+    This enhancement eliminates the need for `extract[2]` and promotes more
     concise and legible code. A replacement method also allows for inline
     replacement of recursive values: 'LHS %>% RHS <- newvalue'
 License: GPL-2 | file LICENSE

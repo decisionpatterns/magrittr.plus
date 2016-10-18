@@ -7,7 +7,7 @@ Drop-In Replacement of 'magrittr' To Introspect Recursive Objects
 
 ### CRAN 
 
-    install.packages('magrittr.plusdocume")
+    install.packages('magrittr.plus")
 
 ### github.com
 
