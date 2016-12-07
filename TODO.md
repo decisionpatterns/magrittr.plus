@@ -10,6 +10,7 @@
      obj %>% .GlobalEnv$header()      
 
    The second one is kinda-kludgy. maybe `.global$header` or `.G$header` 
+   
 
  * [ ] Support %<>%
 
