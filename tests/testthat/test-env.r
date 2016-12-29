@@ -5,6 +5,7 @@ ee <- new.env()
   ee$a <- 1
   ee$b <- 2
 
+test_that( "env", {
   # Accessor
   ee %>% a %>% expect_equal(1)
   ee %>% b %>% expect_equal(2)
@@ -18,3 +19,4 @@ ee <- new.env()
   ee$b$c <- 3
   ee %>% a %>% expect_equal(1)
   ee %>% b %>% c %>% expect_equal(3)
+})

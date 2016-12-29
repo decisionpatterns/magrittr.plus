@@ -3,6 +3,7 @@ context('list')
 
 ll <- list( a=1, b=2 )
 
+test_that( "lists", {
   ll %>% a %>% expect_equal(1)
   ll %>% b %>% expect_equal(2)
 
@@ -10,3 +11,4 @@ ll <- list( a=1, b=2 )
   ll <- list( a = 1, b=list(c=3) )
   ll %>% a %>% expect_equal(1)
   ll %>% b %>% c %>% expect_equal(3)
+})
