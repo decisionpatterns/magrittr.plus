@@ -1,16 +1,9 @@
 
 ## TODO
 
- * [ ] Disambiguate element from function on global environment
-
-     header <- function(...) {}
-     l <- list( header = 1 ) 
+ * [x] Disambiguate element from function on global environment
+       See `two-dots.R`
      
-     obj %>% header                # equivalent to obj$header
-     obj %>% .GlobalEnv$header()      
-
-   The second one is kinda-kludgy. maybe `.global$header` or `.G$header` 
-   
 
  * [ ] Support %<>%
 
