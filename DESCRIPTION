@@ -1,8 +1,8 @@
 Package: magrittr.plus
 Type: Package
 Title: Drop-In Replacement for Magrittr with Advanced Accessors and Replacement
-Version: 0.3.2
-Date: 2016-12-28
+Version: 0.3.3
+Date: 2017-01-09
 Authors@R: c(
     person("Christopher", "Brown", , "chris.brown@decisionpatterns.com", c("aut", "cre") ),
     person("Decision Patterns", role = "cph")

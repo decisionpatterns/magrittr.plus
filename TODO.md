@@ -22,7 +22,7 @@
    does not work.
 
 
- * [ ] Support x %>% 1 
+ * [?] Support x %>% 1 
        Support x %>% 1 <- 20 
        Use integer to select element
        What about . %>% .(1,2) for array slice (?)
