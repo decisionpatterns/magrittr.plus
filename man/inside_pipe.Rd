@@ -28,4 +28,3 @@ f <- function(x) inside_pipe(x)
 "foo" \%>\% f
 
 }
-

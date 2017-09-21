@@ -16,6 +16,7 @@
 #'  a = "ok"
 #'  ll %>% a
 #'  ll %>% ..(a)
+#'  ll %>% ..$a
 #'
 #' @rdname two-dots
 #' @export
