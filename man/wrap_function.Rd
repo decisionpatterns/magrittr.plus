@@ -29,4 +29,3 @@ Wrap an expression in a function
 \author{
 magrittr authors + Chris Brown
 }
-

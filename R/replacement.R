@@ -9,7 +9,7 @@
 #'   ll$a
 #'
 #' @rdname pipe-replace
-#' @import lazyeval
+#' @import lazyeval methods
 #' @export
 
 setGeneric( '%>%<-'

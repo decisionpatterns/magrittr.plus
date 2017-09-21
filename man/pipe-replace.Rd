@@ -2,10 +2,10 @@
 % Please edit documentation in R/replacement.R
 \docType{methods}
 \name{\%>\%<-}
-\alias{'\%>\%<-',}
-\alias{ANY}
 \alias{\%>\%<-}
 \alias{\%>\%<-,ANY-method}
+\alias{'\%>\%<-',}
+\alias{ANY}
 \title{Pipe Replacement}
 \usage{
 \%>\%(...) <- value
@@ -26,4 +26,3 @@ Pipe Replacement
   ll$a
 
 }
-

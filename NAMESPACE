@@ -2,6 +2,8 @@
 
 export("%>%<-")
 export(..)
+export(get_pipe_source)
 export(inside_pipe)
 exportMethods("%>%<-")
 import(lazyeval)
+import(methods)

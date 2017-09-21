@@ -28,4 +28,3 @@ Find value in parent environment
 \url{http://stackoverflow.com/a/21664128} applies the same principal to
   data.tables
 }
-
