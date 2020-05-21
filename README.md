@@ -87,4 +87,6 @@ such as the following to do the right thing.
     ll %>% a <- 5:10
     ll %>% a         # 5:10
 
-The equivalent cannot be done with either `extract2` or `.$name` and instead requires the `inset2` function for extra cognitive bloat.  
+The equivalent cannot be done with either `extract2` or `.$name` and instead 
+requires the `inset2` function for extra cognitive bloat.  
+
